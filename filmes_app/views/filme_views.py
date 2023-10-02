@@ -1,7 +1,6 @@
-from django.shortcuts import render
 from rest_framework import generics
-from .models import Filme
-from .serializers import FilmeSerializer
+from filmes_app.models import Filme
+from filmes_app.serializers import FilmeSerializer
 # Create your views here.
 #POST /filmes {titulo..., descricao...}
 #1. dizer qual é a tabela envolvida
